@@ -1,7 +1,7 @@
 import unittest
 import os
 from typing import Annotated
-from universal_sdk.universal_database import UniversalDatabase, UniversalModel, pk
+from universal_database import UniversalDatabase, UniversalModel, pk
 
 class TestModel(UniversalModel):
     id: Annotated[int, pk()]
