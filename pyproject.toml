@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "universal-database"
+version = "0.1.0"
+description = "**Universal-DataBase** is a versatile software development kit designed to simplify database operations across SQLite and Redis. It provides a unified interface for CRUD operations, dynamic table creation, and model management, making it ideal for developers working with hybrid database systems."
+authors = ["Vortex5Root"]
+license = "apache2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+python-dotenv = "^1.1.1"
+redis-om = "^0.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
